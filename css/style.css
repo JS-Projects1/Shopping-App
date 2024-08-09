@@ -1,0 +1,50 @@
+body {
+    background: #CC95C0;
+    background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+    background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);
+}
+
+nav {
+    box-shadow: 0 0 6px 2px #ffffffcc;
+}
+
+.navbar-brand {
+    width: 75px;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.shopping {
+    position: relative;
+}
+
+.cart {
+    position: absolute;
+    bottom: -8px;
+    right: -26px;
+    background-color: #7aa2d2;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+}
+
+.clothes .container {
+    margin-top: 55px;
+}
+
+.clothes .card-body {
+    padding: 10px !important;
+}
+
+.clothes img {
+    height: 350px;
+}
